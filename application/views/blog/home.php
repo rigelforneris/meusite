@@ -1,229 +1,155 @@
-    <div id="about" class="about-section section-padding">
-        <div id="profile" class="profile-section section-padding bg-color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="section-title">
-                            <h1>whoemi</h1>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
-                        <div class="section-content">
-                            <div class="profile-logo">
-                                <img class="img-responsive" src="images/profile.jpg" alt="Image">
-                            </div>
-                            <div class="profile-info">
-                                <h1>Rigel Forneris</h1>
-                                <h4>Analista de Tecnologia & Desenvolvedor</h4>
-                                <address>
-                                    <p>Celular: +55 31 9 9432 2334<br> <a href="#">Email: rigelforneris@gmail.com</a></p>
-                                </address>
-                            </div><!-- profile info -->
-                            <div class="career-objective">
-                                <div class="title">
-                                    <div class="icons">
-                                        <i class="fa fa-black-tie" aria-hidden="true"></i>
-                                    </div>
-                                    <h3>Um pouco sobre mim</h3>
-                                </div>
-                                <div class="sub-content" style="text-align: justify">
-                                    <p>Eu tenho uma paixão muito grande por tecnologia, por isso estou em constante adaptação aos cenários mais diversos, acredito que infraestrutura de TI e desenvolvimento necessitam caminhar juntos na carreira de um profissional que se aventura nesta área.</p>
-                                </div>
-                            </div><!-- career objective -->
-                            <hr>
-                        </div>
-                        <div class="button">
-                            <a href="<?=base_url("assets/cv.pdf")?>" class="btn btn-primary">Faça o Download do pdf do meu currículo!</a>
-                        </div>
-                    </div>
-                </div><!-- row -->
-            </div><!-- container -->
-        </div><!-- profile section -->
-    </div><!-- about section -->
-
-    <div id="skill" class="skill-section section-padding">
+<div id="about" class="about-section section-padding">
+    <div id="profile" class="profile-section section-padding bg-color">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="section-title">
-                        <h1>Minha Experiência</h1>
+                        <h1>whoemi</h1>
                     </div>
-                </div>  
+                </div>
                 <div class="col-sm-8">
                     <div class="section-content">
-                        <div class="progress-content">
-                            <div class="rating-bar bar-left">
-                                <label>Redes</label>
-                                <span class="rating-count pull-right">80%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Linux</label>
-                                <span class="rating-count pull-right">90%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Windows</label>
-                                <span class="rating-count pull-right">80%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar2" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Banco de dados</label>
-                                <span class="rating-count pull-right">60%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <label>Internet of things</label>
-                                <span class="rating-count pull-right">30%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar4" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <label>Itil</label>
-                                <span class="rating-count pull-right">10%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar5" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Data Science</label>
-                                <span class="rating-count pull-right">10%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar5" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skill rating-bar bar-right">
-                                <label>Html</label>
-                                <span class="rating-count pull-right">60%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Php</label>
-                                <span class="rating-count pull-right">40%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Css</label>
-                                <span class="rating-count pull-right">20%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Python</label>
-                                <span class="rating-count pull-right">30%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar3" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Javascript</label>
-                                <span class="rating-count pull-right">10%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar4" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Mobile</label>
-                                <span class="rating-count pull-right">5%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar5" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-                                <label>Machine Learning</label>
-                                <span class="rating-count pull-right">10%</span>
-                                <div class="skill-progress">
-                                    <div class="progress">
-                                        <div class="progress-bar bar5" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
+                        <div class="profile-logo">
+                            <img class="img-responsive" src="images/profile.jpg" alt="Image">
                         </div>
+                        <div class="profile-info">
+                            <h1>Rigel Forneris</h1>
+                            <h4>Analista de Tecnologia & Desenvolvedor</h4>
+                            <address>
+                                <p>Celular: +55 31 9 9432 2334<br> <a href="#">Email: rigelforneris@gmail.com</a></p>
+                            </address>
+                        </div><!-- profile info -->
+                        <div class="career-objective">
+                            <div class="title">
+                                <div class="icons">
+                                    <i class="fa fa-black-tie" aria-hidden="true"></i>
+                                </div>
+                                <h3>Um pouco sobre mim</h3>
+                            </div>
+                            <div class="sub-content" style="text-align: justify">
+                                <p>Eu tenho uma paixão muito grande por tecnologia, por isso estou em constante adaptação aos cenários mais diversos, acredito que infraestrutura de TI e desenvolvimento necessitam caminhar juntos na carreira de um profissional que se aventura nesta área.</p>
+                            </div>
+                        </div><!-- career objective -->
+                        <hr>
+                    </div>
+                    <div class="button">
+                        <a href="<?= base_url("assets/cv.pdf") ?>" class="btn btn-primary">Faça o Download do pdf do meu currículo!</a>
                     </div>
                 </div>
-            </div>
-        </div><!-- row -->
-    </div><!-- container -->
-</div><!-- skill section -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- profile section -->
+</div><!-- about section -->
 
-
-<div id="skill" class="skill-section section-padding bg-color">
+<div id="skill" class="skill-section section-padding">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="section-title">
-                </div>
-            </div>
-            <div class="col-sm-8">
-                <div class="section-content">
+        
 
-                    <div class="language-skill">
-                        <div class="text-info">
-                            <h4>Habilidades em linguas</h4>
-                        </div>
-                        <ul>
-                            <li class="chart" data-percent="80">
-                                <span class="percent"></span>
-                                <h5>Inglês</h5>
-                            </li>
-                            <li class="chart" data-percent="10">
-                                <span class="percent percent1"></span>
-                                <h5>Espanhol</h5>
-                            </li>
-                            <li class="chart" data-percent="5">
-                                <span class="percent percent2"></span>
-                                <h5>Alemão</h5>
-                            </li>
-                            <li class="chart" data-percent="3">
-                                <span class="percent percent3"></span>
-                                <h5>Russo</h5>
-                            </li>
-                        </ul>
-                    </div><!-- more skill -->
-                </div>
-            </div>
-        </div><!-- row -->
-    </div><!-- container -->
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+
+<!-- Header -->
+<div class="header">
+  <h1> Tecnologias que estou habituado</h1>
+  <p>Algumas tecnologias que já trabalhei e possuo conhecimento.</p>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row" style="width:100%"> 
+  <div class="column" style="width:100%">
+    <img src="images/site/arduino.png" style="width:100%">
+    <img src="images/site/aws.png" style="width:100%">
+    <img src="images/site/azure.png" style="width:100%">
+<img src="images/site/mysql.png" style="width:100%">
+    <img src="images/site/centreon.png" style="width:100%">
+    <img src="images/site/cisco.png" style="width:100%">
+    
+  </div>
+  <div class="column" style="width:100%">
+    <img src="images/site/hyperv.png" style="width:100%">
+    <img src="images/site/jscript.png" style="width:100%">
+    <img src="images/site/kali.png" style="width:100%">
+    <img src="images/site/kubernetes.png" style="width:100%">
+    <img src="images/site/metasploit.png" style="width:100%">
+    
+    
+  </div>
+  <div class="column" style="width:100%">
+    <img src="images/site/openvas.png" style="width:100%">
+    <img src="images/site/pfsense.jpg" style="width:100%">
+    <img src="images/site/php.png" style="width:100%">
+    <img src="images/site/postgres.png" style="width:100%">
+    <img src="images/site/python.png" style="width:100%">
+    <img src="images/site/raspberry.png" style="width:100%">
+    <img src="images/site/docker.png" style="width:100%">
+    
+  </div>
+  <div class="column" style="width:100%">
+    <img src="images/site/sonicwall.png" style="width:100%">
+    <img src="images/site/sqlserver.png" style="width:100%">
+    <img src="images/site/watchguard.png" style="width:100%">
+    <img src="images/site/arduino.png" style="width:100%">
+    <img src="images/site/shellscript.png" style="width:100%">
+    <img src="images/site/nessus.png" style="width:100%">
+    
+  </div>
+</div>
+        
+</div><!-- container -->
 </div><!-- skill section -->
-
-
-
 
 
 <div id="exprience" class="exprience-section section-padding ">
@@ -241,8 +167,8 @@
                     </div>
                     <div class="exprience-info">
                         <h3>Rede Chromos de ensino</h3>
-                        <h5>Outubro de 2016 - Atualmente</h5>
-                        <p style="text-align: justify">Sou atualmente o Analista de TI do Chromos, fui responsável pela reestruturação de todo o ambiente de rede, sempre implementando com boas práticas e garantindo melhoria contínua, atuo no desenvolvimento de alguns sistemas auxiliares utilziando PHP com Code igniter e em diversas outras áreas tecnológicas, como IOT por exemplo.</p>
+                        <h5>Outubro de 2016 - Março de 2018</h5>
+                        <p style="text-align: justify">Fui o Analista DEVOPS do Chromos, era responsável pelo ambiente de infraestrutura e de nuvem da empresa (amazon aws e bluemix), garantindo estabilidade, monitoramento (nagios), segurança e boas práticas, atuei no desenvolvimento de alguns sistemas auxiliares utilizando PHP, python e c++, atuei também  em diversas outras áreas tecnológicas, como segurança da informação (pentests caixa branca e cinza) e IOT.</p>
                     </div>
                 </div>
                 <hr>
@@ -264,7 +190,7 @@
                     </div>
                     <div class="exprience-info">
                         <h3>Prime systems</h3>
-                        <h5>Janeiro de 2014 - Junho de 2014 (4 meses)</h5>
+                        <h5>Janeiro de 2016 - Junho de 2016 (4 meses)</h5>
                         <p style="text-align: justify">Trabalhei na empresa Prime Systems, divisão tecnológica do grupo Seculos, aonde fui responsável pela manutenção da rede local do escritório e da rede das soluções oferecidas, tive bastante contato com a Azure e Amazon, implantei
                             o sistema de Wifi que suporta atualmente o ambiente de teste dos programadores, e mantive todo o ambiente de homologação de desenvolvimento.</p>
                     </div>
