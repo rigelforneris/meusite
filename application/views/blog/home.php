@@ -191,8 +191,7 @@ body {
                     <div class="exprience-info">
                         <h3>Prime systems</h3>
                         <h5>Janeiro de 2016 - Junho de 2016 (4 meses)</h5>
-                        <p style="text-align: justify">Trabalhei na empresa Prime Systems, divisão tecnológica do grupo Seculos, aonde fui responsável pela manutenção da rede local do escritório e da rede das soluções oferecidas, tive bastante contato com a Azure e Amazon, implantei
-                            o sistema de Wifi que suporta atualmente o ambiente de teste dos programadores, e mantive todo o ambiente de homologação de desenvolvimento.</p>
+                        <p style="text-align: justify">Administração do ambiente de rede da divisão de tecnologia do Prédio da Seculus, envolvendo segurança da informação, monitoramento, administração avançada de redes e suporte a desenvolvimento do ambiente hospedado na Azure, e amazon, garantindo o funcionamento do ambiente de homologação da equipe de desenvolvimento, bem como manter o funcionamento do ambiente de produção.</p>
                     </div>
                 </div>
                 <hr>
@@ -206,8 +205,7 @@ body {
                     <div class="exprience-info">
                         <h3>Mastermaq</h3>
                         <h5>Junho de 2015 - Janeiro de 2016 (7 meses)</h5>
-                        <p style="text-align: justify">Fui o Administrador de Rede da Pontomobi, tive contato principalmente com datacenters em nuvem, como Amazon, softlayer (que agora é BlueMix), Conectria, entre outros. Lá o meu trabalho era manter este ambiente funcional para os
-                            programadores e clientes da empresa, que oferecia aplicativos para celular, o que envolveu bastante segurança da informação também.</p>
+                        <p style="text-align: justify">Fui o DevOPS da Pontomobi, tive contato principalmente com datacenters em nuvem, como Amazon, softlayer, Conectria, entre outros. Lá o meu trabalho era administrar este ambiente funcional para os programadores e clientes da empresa, que envolvia desde provisionamento de recursos de cada ambiente a até o deploy de aplicações.</p>
                     </div>
                 </div>
                 <hr>
